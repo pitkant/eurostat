@@ -2,7 +2,7 @@ Package: eurostat
 Type: Package
 Title: Tools for Eurostat Open Data
 Date: 2021-05-12
-Version: 3.7.5
+Version: 3.7.5.9000
 Encoding: UTF-8
 Authors@R: 
     c(person(given = "Leo",
@@ -52,7 +52,6 @@ Description: Tools to download data from the Eurostat database
     manipulation utilities.
 License: BSD_2_clause + file LICENSE
 Depends:
-    methods,	
     R (>= 3.1.0)
 Imports:
     broom,
@@ -67,7 +66,6 @@ Imports:
     RColorBrewer,
     readr,
     RefManageR,
-    sf,
     stringi,
     stringr,
     tibble,
